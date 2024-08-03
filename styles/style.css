@@ -242,3 +242,60 @@ font-size:1.2rem;
     width:70%;
     text-align: center;
 }
+
+/* Question Section */
+
+.question{
+    margin-top:100px;
+    display:flex;
+    justify-content: center;
+}
+.question-container{
+    width:70%;
+}
+.question-text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.question-description{
+    width:80%;
+    text-align: center;
+}
+.question-card-container{
+    display:flex;
+    gap:50px;
+    margin-top:50px;
+}
+.question-first-card{
+    width:50%;
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap:50px;
+  
+
+}
+.question-second-card-photo{
+    width:100%;
+}
+.first-card-items{
+    background: rgb(243, 243, 243);
+    border-radius: 8px;
+    display:flex;;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.items-1{
+    background: rgb(243, 243, 243);
+}
+.card-items-title{
+    color: rgb(65, 64, 64);
+    margin-left: 30px;;
+}
+.card-items-description{
+    margin-left:30px;
+    margin-top:10px;
+}
