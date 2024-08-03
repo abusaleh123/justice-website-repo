@@ -262,6 +262,7 @@ font-size:1.2rem;
 .question-description{
     width:80%;
     text-align: center;
+    margin-top:15px;
 }
 .question-card-container{
     display:flex;
@@ -401,6 +402,7 @@ textarea{
     padding:20px 20px;
     font-size:1rem;
 font-family: "Montserrat", sans-serif;
+height:162px
 }
 textarea::placeholder{
 font-size:1rem;
