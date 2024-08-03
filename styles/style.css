@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+font-family: "Montserrat", sans-serif;
+}
+
+/* Shared Styles */
+
+.description-text{
+    color: rgb(112, 112, 112);
+    font-size:1rem;
+}
+.title-text{
+    color: rgb(65, 64, 64);
+    font-size:2.5rem;
+}
+
+
+/* Nav Section */
+
+.header{
+    display:flex;
+    justify-content: center;
+}
+.header-container{
+    width:70%;
+}
+
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px 0px;
+
+}
+.nav-list{
+    display:flex;
+    gap:50px;
+}
+.nav-list li{
+    list-style: none;
+}
+.nav-list li a{
+    color:rgb(112, 112, 112);
+    text-decoration: none;
+}
+.nav-button a{
+    color:rgb(112, 112, 112);
+    text-decoration: none;
+}
+.nav-button .nav-btn{
+    border-radius: 8px;
+    width:200px;
+    height:100px;
+    background-color:rgb(182, 140, 90);
+    padding:25px 50px;;
+    color:#FFFFFF;
+    font-size:1.1rem;
+    font-weight:600;
+}
+.fa-chevron-right{
+    font-size:1rem;
+    font-weight:600;
+}
+
+/* Banner */
+.banner-container{
+    margin-top:70px;
+    width:100%;
+    height:550px;;
+}
+.banner{
+    border-radius: 8px;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(17, 17, 17, 0) 100%), url(../images/banner.png);
+    width:100%;
+    height:100%;
+    color:#FFFFFF;
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.banner-title{
+    font-size:4.5rem;
+    text-align: center;
+    width:60%;
+    margin-bottom:25px;
+}
+.banner-description{
+    width:60%;
+    text-align: center;
+    font-size:0.9rem;
+    margin-bottom:25px;
+}
+form{
+    display:flex;
+    gap:20px;
+}
+input[type="search"]{
+    width:500px;;
+    height:64px;
+    border-radius: 8px;
+    border:none;
+}
+input::placeholder{
+    color: rgb(160, 160, 160);
+    font-size:1rem;
+    font-weight:500;
+    padding-left: 20px;
+}
+input[type="submit"]{
+width:150px;
+height:64px;
+background-color:rgb(182, 140, 90);
+border:none;
+border-radius: 8px;
+color:#FFFFFF;
+font-weight:500;
+font-size:1.2rem;
+}
+
+/* Practice Section */
+.practice{
+    display:flex;
+    justify-content: center;
+    margin-top:70px;
+}
+.practice-container{
+    width:70%;
+    text-align: center;
+}
+.practice-text{
+    /* text-align: center; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.practice-description{
+    width:80%;
+    margin-top:15px;
+}
+.practice-card-container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    height:1000px;
+    margin-top:80px;
+    
+}
+.practice-card{
+    padding:70px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top:auto; */
+}
+.business{
+    border-right:1px solid rgb(151, 144, 144);
+}
+.bottom{
+    border-bottom:1px solid rgb(151, 144, 144);
+}
+.criminal{
+    background: linear-gradient(180.00deg, rgb(243, 243, 243),rgba(243, 243, 243, 0) 100%)
+}
+.p-card-photo{
+    width:20%;
+    margin-bottom:20px;
+}
+.p-card-description{
+    color: rgb(112, 112, 112);
+    font-size:1rem;
+    margin-top:25px;
+    width:80%;
+    /* border-bottom: 1px solid; */
+    margin-bottom:auto
+}
+.fa-circle-right{
+    font-size:2rem;
+    color:rgb(182, 140, 90);
+    /* margin-top:35px; */
+    /* margin-bottom:35px; */
+}
+
+/* Clients Section */
+
+.clients{
+    display:flex;
+    justify-content: center;
+    margin-top:100px;
+}
+.clients-container{
+    width:70%;
+}
+.clients-text{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clients-description{
+    width:50%;
+    margin-top:25px;
+}
+
+.clients-banner{
+    background: linear-gradient(180.00deg, rgba(0, 0, 0, 0.685),rgba(0, 0, 0, 0.74) 100%), url(../images/banner.png);
+    height:500px;
+    border-radius: 8px;;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+}
+.clients-banner-photo{
+    width:5%;
+    border-radius: 50%;
+    padding:5px;
+    border:2px solid #FFFFFF;
+    margin-bottom:20px;
+}
+.clients-banner-title{
+    color:#FFFFFF;
+    font-size:3rem;
+    margin-top:5px;
+}
+.clients-banner-second-title{
+    color:#FFFFFF;
+    font-size:1.2rem;
+    margin-top:8px;
+    margin-bottom:40px;
+}
+.clients-banner-description{
+    color:#FFFFFF;
+    font-size:1rem;
+    width:70%;
+    text-align: center;
+}
