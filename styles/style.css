@@ -97,7 +97,7 @@ font-family: "Montserrat", sans-serif;
     font-size:0.9rem;
     margin-bottom:25px;
 }
-form{
+.banner-form{
     display:flex;
     gap:20px;
 }
@@ -113,7 +113,7 @@ input::placeholder{
     font-weight:500;
     padding-left: 20px;
 }
-input[type="submit"]{
+#searchh{
 width:150px;
 height:64px;
 background-color:rgb(182, 140, 90);
@@ -298,4 +298,112 @@ font-size:1.2rem;
 .card-items-description{
     margin-left:30px;
     margin-top:10px;
+}
+
+
+
+/* Contact Section */
+
+.contact{
+    display:flex;
+    justify-content: center;
+    margin-top:100px;
+
+}
+.contact-container{
+    width:70%;
+}
+.contact-text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.contact-description{
+    width:70%;
+}
+
+.contact-card-container{
+    height:570px;
+    display:flex;
+    margin-top:70px;
+    gap:50px;
+}
+.contact-fist-card{
+    width:50%;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap:25px; */
+    border-radius: 18px;;
+}
+.contact-first-card-item{
+    background: rgb(243, 243, 243);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form input{
+  display:grid;
+  grid-template-rows: repeat(1, 1fr);
+}
+.address{
+    border-right: 2px solid rgb(216, 212, 212);
+}
+.bottom{
+    border-bottom: 2px solid rgb(216, 212, 212);
+}
+.contact-card-photo{
+    margin-bottom:20px;
+}
+.contact-card-title{
+    color: rgb(65, 64, 64);
+    font-size:1.5rem;
+    margin-bottom:15px;
+}
+.contact-card-number{
+    color: rgb(112, 112, 112);
+    font-size: 1rem;;
+}
+.contact-second-card{
+    /* width:100%; */
+}
+.contact-form{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+.name{
+    width:570px;
+    height:72px;
+    border:none;
+    background: rgb(243, 243, 243);
+    border-radius: 8px;;
+ 
+}
+.name1{
+    height:72px;
+background-color:rgb(182, 140, 90);
+border:none;
+border-radius: 8px;
+color:#FFFFFF;
+font-weight:500;
+font-size:1.2rem;
+}
+.name2{
+    height:165px;
+}
+textarea{
+    background:rgb(243, 243, 243); 
+    border:none;
+    border-radius: 8px;;
+    padding:20px 20px;
+    font-size:1rem;
+font-family: "Montserrat", sans-serif;
+}
+textarea::placeholder{
+font-size:1rem;
+font-family: "Montserrat", sans-serif;
+/* padding:20px 20px; */
 }
